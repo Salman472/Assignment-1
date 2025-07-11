@@ -7,6 +7,7 @@
   
 }
 
+
 /* shared style */
 
 section{
@@ -43,6 +44,7 @@ section{
 .header{
     background-image: url(Assets/Hero-bg.png);
     margin-bottom: 126px;
+    
 }
 .navbar{
     display: flex;
@@ -50,6 +52,7 @@ section{
     align-items: center;
     width: 1140px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .logo{
@@ -101,7 +104,6 @@ section{
 
 /* production section style start */
 
-
 .production{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
@@ -109,11 +111,10 @@ section{
     margin-bottom: 137px;
 
 }
-.users{
+.user{
     
-    display: flex;
-    justify-content: space-around;
-   margin-top: -40px;
+    margin-left: 150px;
+   
    
 }
 .production-title {
@@ -131,13 +132,26 @@ section{
     
 }
 
-.user-description{
+ .user-description{
     font-size: 20px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
     margin-top: -60px;
     margin-bottom: 50px;
-}
+}   
+
+
+ .production{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 1px 14px;
+ }  
+
+ .production{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    
+ }
 
 /* review section style start */
 .user-review-title{
@@ -191,7 +205,7 @@ section{
 }
 
 /* focus section style start */
-.focus{
+ .focus{
     margin-top: 142px;
     border-radius: 14px;
     box-shadow: 0px 6px 50px 0px #F2EDED;
@@ -214,14 +228,15 @@ section{
 }
 .focus-img{
     margin-bottom: 70px;
-}
+} 
 
 /* touch section style start */
-.touch{
+ .touch{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+  
 }
 .touch-title{
     width: 528px;
@@ -265,3 +280,39 @@ section{
 .touch-btn{
     width: 497px;
 }
+
+/* footer section style start */
+
+ .footer{
+    margin-top: 50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.footer-container{
+    width: 454px;
+    margin: 0 auto;
+
+}
+.footer-title{
+    font-size: 80px;
+    font-weight: 900;
+    padding-top: 100px;
+    
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    
+}
+.links{
+    padding-bottom: 100px;
+    margin-top: 15px;
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-left: 20px;
+    
+} 
