@@ -28,7 +28,7 @@ section{
 
 .btn-primary:hover{
     background-color: red;
-    color: black;
+    color: #4E47FF;
     transition: all ease-in 0.2s;
 
 }
@@ -106,6 +106,7 @@ section{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     padding: 1px 14px;
+    margin-bottom: 137px;
 
 }
 .users{
@@ -136,3 +137,55 @@ section{
     margin-top: -60px;
     margin-bottom: 50px;
 }
+
+/* review section style start */
+.user-review-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card{
+   padding: 24px;
+   border-radius: 14px;
+   box-shadow: 0px 6px 50px 0px #F2EDED;
+} 
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(30, 30, 30);
+}
+.users{
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.user-img{
+    width: 50px;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    margin-bottom: -10px;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+}
+
